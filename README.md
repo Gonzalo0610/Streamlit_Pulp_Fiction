@@ -1,2 +1,2 @@
-# Streamlit_Pulp_Fiction
-Fun facts about Pulp Fiction and an introductory guide to Streamlit
+# Streamlit_QT
+Here I share some fun facts about the Pulp Fiction Movie! See the final result in https://pulpfiction.streamlit.app/
