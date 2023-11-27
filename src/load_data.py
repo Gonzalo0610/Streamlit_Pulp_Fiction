@@ -1,7 +1,13 @@
-import pandas as pd
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
 
 def load():
+    import pandas as pd
+    from nltk.sentiment.vader import SentimentIntensityAnalyzer
+    import nltk
+    nltk.download('wordnet')
+    nltk.download('vader_lexicon')
+    #load de dataframe
+
     #load de dataframe
 
     df=pd.read_csv("data/pulp_fiction_dialogue.csv")
